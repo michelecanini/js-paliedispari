@@ -3,15 +3,15 @@
 ### Problema: Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
 
 ### Palindroma
-    1. crea un prompt per far inserire all'utente una parola. 
-    2. insersco console.log di controllo
-    3. creare una funzione per capire se la parola è palindroma.  
-    4. utilizzare nella funzione split per dividere la parola in piu' parti.
+    1. creo un prompt per far inserire all'utente una parola. 
+    2. inserisco console.log di controllo
+    3. creo una funzione per capire se la parola è palindroma.  
+    4. utilizzo nella funzione split per dividere la parola in piu' parti.
     5. inserisco un console.log di controllo
-    6. utilizzo la funzione per invertire l'ordine delle lettere divise.
+    6. utilizzo nella funzione revers per invertire l'ordine delle lettere divise.
     7. inserisco un console.log di controllo
-    8. utilizzo la funzione join per riunire le lettere e riformare nuovamente una stringa
-    9. utilizzare return nella funzione per restituire la stringa 
+    8. utilizzo nella funzione join per riunire le lettere e riformare nuovamente una stringa
+    9. utilizzo return nella funzione per restituire la stringa 
     10. controllo se i due valori sono uguali (if)
     11. ? SE i due valori sono uguali
         11.1 stampa a video il messaggio "Complimenti la parola che hai inserito risulta essere Palindroma!"
