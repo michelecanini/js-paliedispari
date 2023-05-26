@@ -19,3 +19,9 @@ function palindroma_word(entered_word) {
 palindroma_word(entered_word);
 console.log(palindroma_word(entered_word));
 
+//INSERIMENTO IF E CONTROLLO DELL'UGUAGLIANZA DEI VALORI
+if (palindroma_word(entered_word)) {
+    console.log("Complimenti la parola che hai inserito è Palindroma.");
+} else {
+    console.log("Ci dispiace ma la parola che hai inserito non risulta essere Palindroma.");
+}
