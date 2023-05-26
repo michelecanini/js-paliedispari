@@ -7,7 +7,10 @@ console.log(entered_word)
 
 //CREAZIONE DELLA FUNZIONE PER LA PAROLA PALINDROMA
 function palindroma_word(entered_word) {
-    
+
+    //VARIABILE INTERNA ALLA FUNZIONE CON LE PROPRIETA' SPLIT, REVERSE E JOIN 
+    let reversed_word = entered_word.split('').reverse().join(''); 
+
 }
 
 
