@@ -15,4 +15,7 @@ function palindroma_word(entered_word) {
     return entered_word === reversed_word;
 }
 
+//CHIAMATA DELLA FUNZIONE
+palindroma_word(entered_word);
+console.log(palindroma_word(entered_word));
 
