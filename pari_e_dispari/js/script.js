@@ -6,6 +6,14 @@ function random_number() {
     return Math.floor(Math.random() * 6);
     }
 
+// FUNZIONE DI CONTROLLO SULLA SOMMA SE SI TRATTA DI NUMERO PARI O DISPARI
+function check_number(number) {
+    if (number % 2 === 0) {
+        return true;
+    } else {
+        return false;
+}};
+
 // PROMNT DELLA SCELTA UTENTE SE PARI O DISPARI
 let choice = prompt('"Inserire "pari" o "dispari"').toLowerCase();
 
