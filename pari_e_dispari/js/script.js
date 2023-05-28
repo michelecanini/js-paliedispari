@@ -4,3 +4,9 @@
 // PROMNT DELLA SCELTA UTENTE SE PARI O DISPARI
 let choice = prompt('"Inserire "pari" o "dispari"').toLowerCase();
 console.log(choice)
+
+// CONTROLLO DEL VALORE INSERITO DALL'UTENTE
+ if (choice !== "pari" && choice !== "dispari") {
+    alert('ATTENZIONE! Inserisci un valore valido, scegli tra "pari" o "dispari"');
+    choice = prompt('"Inserire "pari" o "dispari"').toLowerCase();
+ }
