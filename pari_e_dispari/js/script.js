@@ -3,7 +3,7 @@
 
 // FUNZIONE CON NUMERO RANDOMICO SCELTA COMPUTER
 function random_number() {
-    return Math.floor(Math.random() * 6);
+    return Math.floor(Math.random() * 6) + 1;
     }
 
 // FUNZIONE DI CONTROLLO SULLA SOMMA SE SI TRATTA DI NUMERO PARI O DISPARI
@@ -21,7 +21,6 @@ let choice = prompt('"Inserire "pari" o "dispari"').toLowerCase();
 while (choice !== "pari" && choice !== "dispari") {
     alert('ATTENZIONE! Inserisci un valore valido, scegli tra "pari" o "dispari"');
     choice = prompt('"Inserire "pari" o "dispari"').toLowerCase();
-    console.log(choice)
  }
 
 // PROMNT DELLA SCELTA UTENTE NUMERO DA 1 A 5
@@ -31,12 +30,16 @@ let insert_number = parseInt(prompt('Inserire un numero compreso tra 1 e 5'));
 while (isNaN(insert_number) || insert_number < 1 || insert_number > 5) {
     alert('ATTENZIONE! Inserisci un valore valido, scegli un numero compreso tra "1" e "5"');
     insert_number = prompt('"Inserire un numero compreso tra 1 e 5"').toLowerCase();
-    console.log(insert_number)
  }
 
- // VARIABILE CONTENIORE DEL NUMERO RANDOMICO DEL COMPUTER
- let computer_number = random_number();
+// VARIABILE CONTENIORE DEL NUMERO RANDOMICO DEL COMPUTER
+let computer_number = random_number();
+console.log(computer_number);
 
- // SOMMA DEI DUE NUMERI
- let sum_of_numbers = insert_number + computer_number;
-  console.log(sum_of_numbers);
+// SOMMA DEI DUE NUMERI
+let sum_of_numbers = insert_number + computer_number;
+console.log(sum_of_numbers);
+
+// VARIABILE PER SALVARE IL RISULTATO
+let check_number_result = check_number(sum_of_numbers);
+console.log(check_number_result);
