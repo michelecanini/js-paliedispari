@@ -6,14 +6,6 @@ function random_number() {
     return Math.floor(Math.random() * 6) + 1;
     }
 
-// FUNZIONE DI CONTROLLO SULLA SOMMA SE SI TRATTA DI NUMERO PARI O DISPARI
-function check_number(number) {
-    if (number % 2 === 0) {
-        return true;
-    } else {
-        return false;
-}};
-
 // PROMNT DELLA SCELTA UTENTE SE PARI O DISPARI
 let choice = prompt('"Inserire "pari" o "dispari"').toLowerCase();
 
@@ -43,3 +35,17 @@ console.log(sum_of_numbers);
 // VARIABILE PER SALVARE IL RISULTATO
 let check_number_result = check_number(sum_of_numbers);
 console.log(check_number_result);
+
+//FUNZIONE DI CONTROLLO SULLA SOMMA SE SI TRATTA DI NUMERO PARI O DISPARI E RESTITUZIONE RISULTATO
+function check_number(number) {
+    if (number % 2 === 0 && choice === "pari") {
+        alert('Utente hai VINTO!');
+        console.log('Utente hai VINTO!');
+    } else if (number % 2 !== 0 && choice === "dispari") {
+        alert('Utente hai VINTO!');
+        console.log('Utente hai VINTO!');
+    } else {
+        alert('Utente NON hai Vinto! Il computer ti ha battuto.');
+        console.log('Utente NON hai Vinto! Il computer ti ha battuto.');
+    }
+};
