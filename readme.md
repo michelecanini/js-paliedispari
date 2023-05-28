@@ -22,4 +22,14 @@
 ### Problema: L’utente sceglie pari o dispari e inserisce un numero da 1 a 5, generiamo un numero random per il computer. Stabiliamo e dichiariamo chi ha vinto.
 
 ### Pari e Dispari
-    1. in progress...
+    1. creo una funzione per generare un numero randomico da 1 a 5 per il computer
+    2. creo un pront per la scelta dell'utente se pari o dispari
+    3. creo un pront per la scelta dell'utente da 1 a 5
+    4. sommo i due numeri ricevuti da utente e computer e creo una costante
+    5. stampa a video il valore della somma 
+    6. ? SE la somma dei due numeri equivale ad un numero pari e l'utente ha scelto pari
+        6.1 stampa a video il messaggio "Complimenti è uscito PARI, hai Vinto!"
+    7. : ALTRIMENTI Se la somma dei due numeri equivale ad un numero dispari e l'utente ha scelto dispari
+        7.1 stampa a video il messaggio "Complimenti è uscito DISPARI, hai Vinto!"
+    8. : ALTRIMENTI stampa a video il messaggio "Ci dispiace hai Perso!"
+    
